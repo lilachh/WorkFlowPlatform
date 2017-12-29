@@ -1,0 +1,509 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35097E2C-555E-4D93-B82C-09020F2B2603}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkFlowPresentation</RootNamespace>
+    <AssemblyName>WorkFlowPresentation</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\WorkFlowEngine.dll" />
+    <Content Include="bin\WorkFlowEngine.pdb" />
+    <Content Include="Configuration\AddSequence.aspx" />
+    <Content Include="Configuration\EditSystem.aspx" />
+    <Content Include="Configuration\Preview.aspx" />
+    <Content Include="Configuration\RoleManagement.aspx" />
+    <Content Include="Configuration\RoleMemberManagerment.aspx" />
+    <Content Include="Configuration\Routing.aspx" />
+    <Content Include="Configuration\SystemDetail.aspx" />
+    <Content Include="Configuration\SystemManagement.aspx" />
+    <Content Include="CSS\MainCSS.css" />
+    <Content Include="DatePicker\calendar.js" />
+    <Content Include="DatePicker\config.js" />
+    <Content Include="DatePicker\lang\en.js" />
+    <Content Include="DatePicker\lang\zh-cn.js" />
+    <Content Include="DatePicker\lang\zh-tw.js" />
+    <Content Include="DatePicker\My97DatePicker.htm" />
+    <Content Include="DatePicker\skin\datePicker.gif" />
+    <Content Include="DatePicker\skin\default\datepicker.css" />
+    <Content Include="DatePicker\skin\default\img.gif" />
+    <Content Include="DatePicker\skin\WdatePicker.css" />
+    <Content Include="DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="DatePicker\WdatePicker.js" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\AMD_ADV.gif" />
+    <Content Include="Images\amd_suzhou.gif" />
+    <Content Include="Images\back4.bmp" />
+    <Content Include="Images\banner010522.jpg" />
+    <Content Include="Images\DatePicker\calendar.js" />
+    <Content Include="Images\DatePicker\config.js" />
+    <Content Include="Images\DatePicker\lang\en.js" />
+    <Content Include="Images\DatePicker\lang\zh-cn.js" />
+    <Content Include="Images\DatePicker\lang\zh-tw.js" />
+    <Content Include="Images\DatePicker\My97DatePicker.htm" />
+    <Content Include="Images\DatePicker\skin\datePicker.gif" />
+    <Content Include="Images\DatePicker\skin\default\datepicker.css" />
+    <Content Include="Images\DatePicker\skin\default\img.gif" />
+    <Content Include="Images\DatePicker\skin\WdatePicker.css" />
+    <Content Include="Images\DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Images\DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Images\DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Images\DatePicker\WdatePicker.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\admin_left_5.gif" />
+    <Content Include="Images\bullet.gif" />
+    <Content Include="Images\Collapse.gif" />
+    <Content Include="Images\Expand.gif" />
+    <Content Include="Images\pic_login.gif" />
+    <Content Include="Images\submit.gif" />
+    <Content Include="Images\title.gif" />
+    <Content Include="Images\title_bg_quit.gif" />
+    <Content Include="Images\wire.gif" />
+    <Content Include="Images\work2.JPG" />
+    <Content Include="Images\work5.jpg" />
+    <Content Include="Images\work6.JPG" />
+    <Content Include="Left.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="main.html" />
+    <Content Include="Navigator.ascx" />
+    <Content Include="Presentation\ApproveDetail.aspx" />
+    <Content Include="Presentation\BatchApproval.aspx" />
+    <Content Include="Presentation\DetailInformation.aspx" />
+    <Content Include="Presentation\DoApproval.aspx" />
+    <Content Include="Presentation\DoWithdrawal.aspx" />
+    <Content Include="Presentation\GeneratedLogs.aspx" />
+    <Content Include="Presentation\PendingList.aspx" />
+    <Content Include="Presentation\ReqeustDetail.aspx" />
+    <Content Include="Presentation\RequestList.aspx" />
+    <Content Include="Presentation\test.aspx" />
+    <Content Include="top.aspx" />
+    <None Include="Web References\WorkFlowWebService\workflow.disco" />
+    <Content Include="Web.config" />
+    <Content Include="ZZZTest.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\AddSequence.aspx.cs">
+      <DependentUpon>AddSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\AddSequence.aspx.designer.cs">
+      <DependentUpon>AddSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\EditSystem.aspx.cs">
+      <DependentUpon>EditSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\EditSystem.aspx.designer.cs">
+      <DependentUpon>EditSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Preview.aspx.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\Preview.aspx.designer.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\RoleManagement.aspx.cs">
+      <DependentUpon>RoleManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\RoleManagement.aspx.designer.cs">
+      <DependentUpon>RoleManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\RoleMemberManagerment.aspx.cs">
+      <DependentUpon>RoleMemberManagerment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\RoleMemberManagerment.aspx.designer.cs">
+      <DependentUpon>RoleMemberManagerment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Routing.aspx.cs">
+      <DependentUpon>Routing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\Routing.aspx.designer.cs">
+      <DependentUpon>Routing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\SystemDetail.aspx.cs">
+      <DependentUpon>SystemDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\SystemDetail.aspx.designer.cs">
+      <DependentUpon>SystemDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\SystemManagement.aspx.cs">
+      <DependentUpon>SystemManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\SystemManagement.aspx.designer.cs">
+      <DependentUpon>SystemManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Navigator.ascx.cs">
+      <DependentUpon>Navigator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navigator.ascx.designer.cs">
+      <DependentUpon>Navigator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveDetail.aspx.cs">
+      <DependentUpon>ApproveDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveDetail.aspx.designer.cs">
+      <DependentUpon>ApproveDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\BatchApproval.aspx.cs">
+      <DependentUpon>BatchApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\BatchApproval.aspx.designer.cs">
+      <DependentUpon>BatchApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\DetailInformation.aspx.cs">
+      <DependentUpon>DetailInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\DetailInformation.aspx.designer.cs">
+      <DependentUpon>DetailInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\DoApproval.aspx.cs">
+      <DependentUpon>DoApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\DoApproval.aspx.designer.cs">
+      <DependentUpon>DoApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\DoWithdrawal.aspx.cs">
+      <DependentUpon>DoWithdrawal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\DoWithdrawal.aspx.designer.cs">
+      <DependentUpon>DoWithdrawal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\GeneratedLogs.aspx.cs">
+      <DependentUpon>GeneratedLogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\GeneratedLogs.aspx.designer.cs">
+      <DependentUpon>GeneratedLogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\PendingList.aspx.cs">
+      <DependentUpon>PendingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\PendingList.aspx.designer.cs">
+      <DependentUpon>PendingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ReqeustDetail.aspx.cs">
+      <DependentUpon>ReqeustDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\ReqeustDetail.aspx.designer.cs">
+      <DependentUpon>ReqeustDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\RequestList.aspx.cs">
+      <DependentUpon>RequestList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\RequestList.aspx.designer.cs">
+      <DependentUpon>RequestList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WorkFlowWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="ZZZTest.aspx.cs">
+      <DependentUpon>ZZZTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZZZTest.aspx.designer.cs">
+      <DependentUpon>ZZZTest.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\.svn\all-wcprops" />
+    <None Include="Configuration\.svn\entries" />
+    <None Include="Configuration\.svn\format" />
+    <None Include="CSS\.svn\all-wcprops" />
+    <None Include="CSS\.svn\entries" />
+    <None Include="CSS\.svn\format" />
+    <None Include="CSS\.svn\text-base\MainCSS.css.svn-base" />
+    <None Include="DatePicker\skin\default\Thumbs.db" />
+    <None Include="DatePicker\skin\Thumbs.db" />
+    <None Include="DatePicker\skin\whyGreen\Thumbs.db" />
+    <None Include="Images\DatePicker\.svn\all-wcprops" />
+    <None Include="Images\DatePicker\.svn\entries" />
+    <None Include="Images\DatePicker\.svn\format" />
+    <None Include="Images\DatePicker\.svn\text-base\calendar.js.svn-base" />
+    <None Include="Images\DatePicker\.svn\text-base\config.js.svn-base" />
+    <None Include="Images\DatePicker\.svn\text-base\My97DatePicker.htm.svn-base" />
+    <None Include="Images\DatePicker\.svn\text-base\WdatePicker.js.svn-base" />
+    <None Include="Images\DatePicker\lang\.svn\all-wcprops" />
+    <None Include="Images\DatePicker\lang\.svn\entries" />
+    <None Include="Images\DatePicker\lang\.svn\format" />
+    <None Include="Images\DatePicker\lang\.svn\text-base\en.js.svn-base" />
+    <None Include="Images\DatePicker\lang\.svn\text-base\zh-cn.js.svn-base" />
+    <None Include="Images\DatePicker\lang\.svn\text-base\zh-tw.js.svn-base" />
+    <None Include="Images\DatePicker\skin\.svn\all-wcprops" />
+    <None Include="Images\DatePicker\skin\.svn\entries" />
+    <None Include="Images\DatePicker\skin\.svn\format" />
+    <None Include="Images\DatePicker\skin\.svn\prop-base\datePicker.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\.svn\prop-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\.svn\text-base\datePicker.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\.svn\text-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\.svn\text-base\WdatePicker.css.svn-base" />
+    <None Include="Images\DatePicker\skin\default\.svn\all-wcprops" />
+    <None Include="Images\DatePicker\skin\default\.svn\entries" />
+    <None Include="Images\DatePicker\skin\default\.svn\format" />
+    <None Include="Images\DatePicker\skin\default\.svn\prop-base\img.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\default\.svn\prop-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\default\.svn\text-base\datepicker.css.svn-base" />
+    <None Include="Images\DatePicker\skin\default\.svn\text-base\img.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\default\.svn\text-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\default\Thumbs.db" />
+    <None Include="Images\DatePicker\skin\Thumbs.db" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\all-wcprops" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\entries" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\format" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\prop-base\bg.jpg.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\prop-base\img.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\prop-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\text-base\bg.jpg.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\text-base\datepicker.css.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\text-base\img.gif.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\.svn\text-base\Thumbs.db.svn-base" />
+    <None Include="Images\DatePicker\skin\whyGreen\Thumbs.db" />
+    <None Include="Images\.svn\all-wcprops" />
+    <None Include="Images\.svn\entries" />
+    <None Include="Images\.svn\format" />
+    <None Include="Logs\log.txt2009.04.24" />
+    <None Include="Presentation\.svn\all-wcprops" />
+    <None Include="Presentation\.svn\entries" />
+    <None Include="Presentation\.svn\format" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WorkFlowWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WorkFlowWebService\workflow.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorkFlowEngine\WorkFlowEngine.csproj">
+      <Project>{1311513B-B6CF-4220-9C76-4969E265E925}</Project>
+      <Name>WorkFlowEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://165.204.224.6/wfws/workflow.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WorkFlowWebService\</RelPath>
+      <UpdateFromURL>http://165.204.224.6/wfws/workflow.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WorkFlowPresentation_WorkFlowWebService_WorkFlow</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Configuration\.svn\prop-base\" />
+    <Folder Include="Configuration\.svn\props\" />
+    <Folder Include="Configuration\.svn\text-base\" />
+    <Folder Include="Configuration\.svn\tmp\prop-base\" />
+    <Folder Include="Configuration\.svn\tmp\props\" />
+    <Folder Include="Configuration\.svn\tmp\text-base\" />
+    <Folder Include="CSS\.svn\prop-base\" />
+    <Folder Include="CSS\.svn\props\" />
+    <Folder Include="CSS\.svn\tmp\prop-base\" />
+    <Folder Include="CSS\.svn\tmp\props\" />
+    <Folder Include="CSS\.svn\tmp\text-base\" />
+    <Folder Include="Images\.svn\prop-base\" />
+    <Folder Include="Images\.svn\props\" />
+    <Folder Include="Images\.svn\text-base\" />
+    <Folder Include="Images\.svn\tmp\prop-base\" />
+    <Folder Include="Images\.svn\tmp\props\" />
+    <Folder Include="Images\.svn\tmp\text-base\" />
+    <Folder Include="Images\DatePicker\.svn\prop-base\" />
+    <Folder Include="Images\DatePicker\.svn\props\" />
+    <Folder Include="Images\DatePicker\.svn\tmp\prop-base\" />
+    <Folder Include="Images\DatePicker\.svn\tmp\props\" />
+    <Folder Include="Images\DatePicker\.svn\tmp\text-base\" />
+    <Folder Include="Images\DatePicker\lang\.svn\prop-base\" />
+    <Folder Include="Images\DatePicker\lang\.svn\props\" />
+    <Folder Include="Images\DatePicker\lang\.svn\tmp\prop-base\" />
+    <Folder Include="Images\DatePicker\lang\.svn\tmp\props\" />
+    <Folder Include="Images\DatePicker\lang\.svn\tmp\text-base\" />
+    <Folder Include="Images\DatePicker\skin\.svn\props\" />
+    <Folder Include="Images\DatePicker\skin\.svn\tmp\prop-base\" />
+    <Folder Include="Images\DatePicker\skin\.svn\tmp\props\" />
+    <Folder Include="Images\DatePicker\skin\.svn\tmp\text-base\" />
+    <Folder Include="Images\DatePicker\skin\default\.svn\props\" />
+    <Folder Include="Images\DatePicker\skin\default\.svn\tmp\prop-base\" />
+    <Folder Include="Images\DatePicker\skin\default\.svn\tmp\props\" />
+    <Folder Include="Images\DatePicker\skin\default\.svn\tmp\text-base\" />
+    <Folder Include="Images\DatePicker\skin\whyGreen\.svn\props\" />
+    <Folder Include="Images\DatePicker\skin\whyGreen\.svn\tmp\prop-base\" />
+    <Folder Include="Images\DatePicker\skin\whyGreen\.svn\tmp\props\" />
+    <Folder Include="Images\DatePicker\skin\whyGreen\.svn\tmp\text-base\" />
+    <Folder Include="JS\" />
+    <Folder Include="Presentation\.svn\prop-base\" />
+    <Folder Include="Presentation\.svn\props\" />
+    <Folder Include="Presentation\.svn\text-base\" />
+    <Folder Include="Presentation\.svn\tmp\prop-base\" />
+    <Folder Include="Presentation\.svn\tmp\props\" />
+    <Folder Include="Presentation\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5813</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

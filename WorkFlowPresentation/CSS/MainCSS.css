@@ -1,0 +1,472 @@
+BODY
+{
+	margin-top: 0px;
+	font-size: 12px;
+	background: #cad7f7;
+}
+TD
+{
+	font-size: 14px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+
+TEXTAREA
+{
+	border-top-width: 1px;
+	border-left-width: 1px;
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+SELECT
+{
+	border-top-width: 1px;
+	border-left-width: 1px;
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+SPAN
+{
+	font-size: 12px;
+	position: static;
+}
+A
+{
+	color: #0000ff;
+	text-decoration: underline;
+}
+A:hover
+{
+	color: #428eff;
+	text-decoration: underline;
+}
+A.highlight
+{
+	color: red;
+	text-decoration: none;
+}
+A.highlight:hover
+{
+	color: red;
+}
+A.thisclass
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+A.thisclass:hover
+{
+	font-weight: bold;
+}
+A.navlink
+{
+	color: #000000;
+	text-decoration: none;
+}
+A.navlink:hover
+{
+	color: #003399;
+	text-decoration: none;
+}
+.tdvalign
+{
+	font-size: 12px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+img
+{
+	border-right: 0px;
+	border-top: 0px;
+	vertical-align: bottom;
+	border-left: 0px;
+	border-bottom: 0px;
+}
+
+.sec_menu
+{
+	border-right: white 1px solid;
+	background: #d6dff7;
+	overflow: hidden;
+	border-left: white 1px solid;
+	border-bottom: white 1px solid;
+}
+.menu_title
+{
+}
+.menu_title span
+{
+	font-weight: bold;
+	left: 8px;
+	color: #215dc6;
+	position: relative;
+	top: 2px;
+}
+.menu_title1
+{
+}
+.menu_title1 span
+{
+	font-weight: bold;
+	left: 8px;
+	color: #428eff;
+	position: relative;
+	top: 2px;
+}
+.twidth
+{
+	width: 760px;
+}
+.content
+{
+	font-size: 14px;
+	margin: 5px 20px;
+	line-height: 140%;
+	font-family: Tahoma,ËÎÌו;
+	vertical-align: middle;
+}
+.aTitle
+{
+	font-weight: bold;
+	font-size: 15px;
+}
+TD.forumHeaderBackgroundAlternate
+{
+	background-image: url(images/admin_top_bg.gif);
+	color: #000000;
+	background-color: #799ae1;
+}
+#TableTitleLink A:link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+#TableTitleLink A:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+#TableTitleLink A:active
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+#TableTitleLink A:hover
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+TD.forumRow
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #f1f3f5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+TD.InEditRow
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: #AEC4FB;
+}
+TD.ExtRow
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: #FDFAE1;
+}
+TH.header
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url(images/admin_bg_1.gif);
+	color: white;
+	background-color: #4455aa;
+}
+TD.bodytitle
+{
+	background-image: url(images/admin_bg_2.gif);
+}
+TD.bodytitle1
+{
+	background-image: url(images/admin_bg_3.gif);
+}
+TD.tablebody1
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #bebbdb;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+TD.forumRowHighlight
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #e4edf9;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.tableBorder
+{
+	border-right: #183789 1px solid;
+	border-top: #183789 1px solid;
+	border-left: #183789 1px solid;
+	width: 98%;
+	border-bottom: #183789 1px solid;
+	background-color: #ffffff;
+}
+.tableBorder1
+{
+	width: 98%;
+}
+.helplink
+{
+	font: 10px verdana,arial,helvetica,sans-serif;
+	cursor: help;
+	text-decoration: none;
+}
+.copyright
+{
+	padding-right: 1px;
+	border-top: #6595d6 1px dashed;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	font: 11px verdana,arial,helvetica,sans-serif;
+	color: #4455aa;
+	padding-top: 1px;
+	text-decoration: none;
+}
+.menuskin
+{
+	border-right: #666666 1px solid;
+	border-top: #666666 1px solid;
+	background-image: url(../skins/default/dvmenubg3.gif);
+	visibility: hidden;
+	font: 12px Verdana;
+	border-left: #666666 1px solid;
+	border-bottom: #666666 1px solid;
+	background-repeat: repeat-y;
+	position: absolute;
+	background-color: #efefef;
+}
+.menuskin A
+{
+	padding-right: 10px;
+	padding-left: 25px;
+	behavior: url(inc/noline.htc);
+	color: black;
+	text-decoration: none;
+}
+#mouseoverstyle
+{
+	border-right: #597db5 1px solid;
+	padding-right: 0px;
+	border-top: #597db5 1px solid;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 2px;
+	border-left: #597db5 1px solid;
+	padding-top: 0px;
+	border-bottom: #597db5 1px solid;
+	background-color: #c9d5e7;
+}
+#mouseoverstyle A
+{
+	color: black;
+}
+.menuitems
+{
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	margin: 2px;
+	word-break: keep-all;
+	padding-top: 1px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.STYLE1
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.DataGridHeader
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #f1f3f5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #333333;
+	height: 24px;
+}
+.DataGridItem
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #f1f3f5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 19pt;
+	color: #333333;
+	height: 24px;
+}
+.DataGridItemInSelect
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 19pt;
+	color: #333333;
+	height: 24px;
+	background-color: #FDFAE1;
+}
+.DataGrid
+{
+	width: 98%;
+	background-color: #ffffff;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.GridViewHeader
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #f1f3f5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #333333;
+	height: 20px;
+}
+.GridViewItem
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	background: #f1f3f5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 19pt;
+	color: #333333;
+	height: 24px;
+}
+.GridViewItemInSelect
+{
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 19pt;
+	color: #333333;
+	height: 20px;
+	background-color: #FDFAE1;
+}
+.GridView
+{
+	width: 98%;
+	background-color: #ffffff;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.GridViewStyle
+{
+	border-right: 2px solid #A7A6AA;
+	border-bottom: 2px solid #A7A6AA;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	padding: 4px;
+	color: #FFFFFF;
+}
+
+.GridViewHeaderStyle th
+{
+	border-left: 1px solid #EBE9ED;
+	border-right: 1px solid #EBE9ED;
+}
+
+.GridViewHeaderStyle
+{
+	background-color: #5D7B9D;
+	font-weight: bold;
+	color: White;
+	height: 20px;
+}
+
+.GridViewFooterStyle
+{
+	background-color: #5D7B9D;
+	font-weight: bold;
+	color: White;
+	height: 20px;
+}
+
+.GridViewRowStyle
+{
+	background-color: #F7F6F3;
+	color: #335263;
+	height: 17px;
+}
+
+.GridViewAlternatingRowStyle
+{
+	background-color: #FFFFFF;
+	color: #284775;
+	height: 17px;
+}
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+	border: 1px solid #EBE9ED;
+}
+
+.GridViewSelectedRowStyle
+{
+	background-color: #E2DED6;
+	font-weight: bold;
+	color: #333333;
+}
+
+.GridViewPagerStyle
+{
+	background-color: #E2DED6;
+	color: #FFFFFF;
+}
+
+.GridViewPagerStyle table /**/ /* to center the paging links*/
+{
+	margin: 0 auto 0 auto;
+}
+
+.FrameHeader
+{
+	color: #FFFFFF;
+	font-size:large;
+	font-weight: bold;
+}
+
+.hidden  
+ {   
+ 	display:none;
+ } 

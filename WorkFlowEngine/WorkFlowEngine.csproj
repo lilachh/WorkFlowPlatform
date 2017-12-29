@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1311513B-B6CF-4220-9C76-4969E265E925}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkFlowEngine</RootNamespace>
+    <AssemblyName>WorkFlowEngine</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\ApproveList.cs" />
+    <Compile Include="BLL\ApproverRole.cs" />
+    <Compile Include="BLL\Document.cs" />
+    <Compile Include="BLL\DocumentLog.cs" />
+    <Compile Include="BLL\Employee.cs" />
+    <Compile Include="BLL\Node.cs" />
+    <Compile Include="BLL\QueryList.cs" />
+    <Compile Include="BLL\RequestorChoice.cs" />
+    <Compile Include="BLL\ResponsibilityRole.cs" />
+    <Compile Include="BLL\Sequence.cs" />
+    <Compile Include="BLL\SystemType.cs" />
+    <Compile Include="BLL\Tree.cs" />
+    <Compile Include="BLL\WorkFlow.cs" />
+    <Compile Include="DBUtility\DESEncrypt.cs" />
+    <Compile Include="DBUtility\Logger.cs" />
+    <Compile Include="DBUtility\PubConstant.cs" />
+    <Compile Include="DBUtility\SQLHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="BLL\.svn\all-wcprops" />
+    <None Include="BLL\.svn\entries" />
+    <None Include="BLL\.svn\format" />
+    <None Include="BLL\.svn\text-base\ApproveList.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\ApproverRole.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\Document.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\DocumentLog.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\Employee.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\QueryList.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\ResponsibilityRole.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\Sequence.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\WorkFlowConfiguration.cs.svn-base" />
+    <None Include="BLL\.svn\text-base\WorkFlowGeneration.cs.svn-base" />
+    <None Include="DBUtility\.svn\all-wcprops" />
+    <None Include="DBUtility\.svn\entries" />
+    <None Include="DBUtility\.svn\format" />
+    <None Include="DBUtility\.svn\text-base\Class1.cs.svn-base" />
+    <None Include="DBUtility\.svn\text-base\DESEncrypt.cs.svn-base" />
+    <None Include="DBUtility\.svn\text-base\PubConstant.cs.svn-base" />
+    <None Include="DBUtility\.svn\text-base\SQLHelper.cs.svn-base" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\log4net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\.svn\prop-base\" />
+    <Folder Include="BLL\.svn\props\" />
+    <Folder Include="BLL\.svn\tmp\prop-base\" />
+    <Folder Include="BLL\.svn\tmp\props\" />
+    <Folder Include="BLL\.svn\tmp\text-base\" />
+    <Folder Include="DBUtility\.svn\prop-base\" />
+    <Folder Include="DBUtility\.svn\props\" />
+    <Folder Include="DBUtility\.svn\tmp\prop-base\" />
+    <Folder Include="DBUtility\.svn\tmp\props\" />
+    <Folder Include="DBUtility\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

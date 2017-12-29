@@ -1,0 +1,906 @@
+
+----------------------header--------------------------
+2009-04-24 08:10:07,699 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 08:10:26,106 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:10:35,421 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:10:35',remark='' where SystemID = 18 and DocumentID = 15 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 15
+
+
+ 2009-04-24 08:14:45,452 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:15:18,798 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:15:18,875 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:15:18',remark='' where SystemID = 18 and DocumentID = 5 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 5
+
+
+ 2009-04-24 08:16:34,679 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:16:40,267 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:16:40,282 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:16:40',remark='' where SystemID = 18 and DocumentID = 6 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 6
+
+
+ 2009-04-24 08:16:40,298 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 8:16:40',remark='' where SystemID = 18 and DocumentID = 7 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 7
+
+
+ 2009-04-24 08:17:08,515 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:18:47,298 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:18:52,901 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:18:52,947 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:18:52',remark='' where SystemID = 18 and DocumentID = 8 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 8
+
+
+ 2009-04-24 08:18:58,223 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 8:18:58',remark='' where SystemID = 18 and DocumentID = 13 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 13
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:19:54,704 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:20:09,739 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:20:09,816 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 14, 120, 'Manager', '0', 380004, 9, -1, '-1', null)
+
+
+ 2009-04-24 08:20:09,847 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:20:09',remark='' where SystemID = 18 and DocumentID = 14 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 14 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:23:15,137 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:23:54,643 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:23:58,677 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:23:58',remark='' where SystemID = 18 and DocumentID = 14 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 14
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:24:37,279 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:24:41,345 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:24:41,392 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 15, 120, 'Manager', '0', 380004, 9, -1, '-1', null)
+
+
+ 2009-04-24 08:24:41,407 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:24:41',remark='' where SystemID = 18 and DocumentID = 15 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 15 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:27:19,065 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:27:40,165 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:27:40',remark='' where SystemID = 18 and DocumentID = 15 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 15
+
+
+ 2009-04-24 08:27:56,481 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:27:56,512 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 16, 120, 'Manager', '0', 380004, 9, -1, '-1', null)
+
+
+ 2009-04-24 08:27:56,528 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:27:56',remark='' where SystemID = 18 and DocumentID = 16 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 16 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:33:47,594 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:34:22,271 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:35:29,895 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:35:33,511 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:35:33',remark='' where SystemID = 18 and DocumentID = 16 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 16
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:36:28,948 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:36:58,451 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:37:42,324 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:37:45,737 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:37:45',remark='' where SystemID = 18 and DocumentID = 17 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 17 and SequenceID = 110
+
+
+ 2009-04-24 08:38:02,336 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:39:03,339 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:40:22,623 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:41:12,217 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:41:43,264 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 08:41:52,085 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 17, 120, 'Manager', '0', 380004, 9, -1, 'pending', null)
+
+
+ 2009-04-24 08:41:52,116 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 8:41:52',remark='' where SystemID = 18 and DocumentID = 17 and SequenceID = 110 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 17 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:42:14,809 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:42:18,409 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:42:18',remark='' where SystemID = 18 and DocumentID = 17 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 17
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:42:59,946 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:44:16,504 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:44:20,509 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:44:20,634 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 19, 120, 'Manager', '0', 380004, 9, -1, '-1', null)
+
+
+ 2009-04-24 08:44:20,649 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:44:20',remark='' where SystemID = 18 and DocumentID = 19 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 19 and SequenceID = 120
+
+
+ 2009-04-24 08:44:50,044 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:45:54,960 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:45:58,248 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:45:58',remark='' where SystemID = 18 and DocumentID = 19 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 19
+
+
+ 2009-04-24 08:46:50,820 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:47:08,089 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 8:47:08',remark='' where SystemID = 18 and DocumentID = 20 and SequenceID = 100 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 20
+
+
+ 2009-04-24 08:48:34,544 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:49:16,906 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:50:06,470 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 08:50:06,501 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate)  values (18, 21, 120, 'Manager', '0', 380004, 9, -1, '-1', null)
+
+
+ 2009-04-24 08:50:06,516 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:50:06',remark='' where SystemID = 18 and DocumentID = 21 and SequenceID = 100 and ApproveNeededID = 380004
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 21 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 08:52:03,520 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:52:15,615 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 8:52:15',remark='' where SystemID = 18 and DocumentID = 5 and SequenceID = 310 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 5
+
+
+ 2009-04-24 08:52:18,327 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:52:31,544 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 08:52:57,339 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 09:31:23,724 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:32:53,531 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:33:46,133 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:34:11,928 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:34:15,700 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 9:34:15',remark='' where SystemID = 18 and DocumentID = 24 and SequenceID = 110 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 24 and SequenceID = 120
+
+
+ 2009-04-24 09:37:30,805 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:38:32,807 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 09:38:52,913 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 09:39:14,764 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 09:39:23,633 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447151,ApproveDate= '2009-4-24 9:39:23',remark='' where SystemID = 18 and DocumentID = 25 and SequenceID = 100 and ApproveNeededID = 447151
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 25 and SequenceID = 110
+
+
+ 2009-04-24 09:40:08,692 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:40:40,503 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:41:34,119 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:42:05,228 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:42:09,904 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 9:42:09',remark='' where SystemID = 18 and DocumentID = 25 and SequenceID = 110 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 25 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:44:05,786 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 09:44:19,735 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 9:44:19',remark='' where SystemID = 18 and DocumentID = 24 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 24
+
+
+ 2009-04-24 09:45:35,312 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:46:02,837 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:46:23,800 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:46:35,006 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:47:35,340 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:47:43,709 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 09:47:43,725 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 9:47:43',remark='' where SystemID = 18 and DocumentID = 29 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 29 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:48:45,695 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:48:57,073 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 09:51:22,739 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=447150,ApproveDate='2009-4-24 9:51:22',remark='' where SystemID = 18 and DocumentID = 30 and SequenceID = 100 and ApproveNeededID = 447150
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 30
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:53:35,067 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:54:02,315 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 09:57:29,435 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 09:58:20,094 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 09:58:42,976 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:01:06,221 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:02:17,907 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:03:31,095 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:03:31,331 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:04:31,069 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:05:28,058 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:06:05,747 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:06:08,370 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:07:00,099 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:07:03,412 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447151,ApproveDate= '2009-4-24 10:07:03',remark='' where SystemID = 18 and DocumentID = 26 and SequenceID = 100 and ApproveNeededID = 447151
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 26 and SequenceID = 110
+
+
+ 2009-04-24 10:07:03,428 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=447151,ApproveDate='2009-4-24 10:07:03',remark='' where SystemID = 18 and DocumentID = 27 and SequenceID = 100 and ApproveNeededID = 447151
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 27
+
+
+ 2009-04-24 10:07:17,813 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:09:04,354 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 10:09:14,061 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 10:09:14',remark='' where SystemID = 18 and DocumentID = 26 and SequenceID = 110 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 26 and SequenceID = 120
+
+
+ 2009-04-24 10:09:14,076 [ERROR] [RowIndex£º142 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\BatchApproval.aspx.cs  
+ Message:447150  Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:17:21,203 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 10:17:28,489 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 10:17:28',remark='' where SystemID = 18 and DocumentID = 25 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 25
+
+
+ 2009-04-24 10:18:53,587 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 10:19:04,532 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 10:19:04',remark='' where SystemID = 18 and DocumentID = 29 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 29
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 10:58:33,698 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 10:58:47,151 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 10:59:00,089 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 10:59:23,556 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=380004,ApproveDate= '2009-4-24 10:59:23',remark='' where SystemID = 18 and DocumentID = 26 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'approved' where SystemID = 18 and DocumentID = 26
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:06:48,413 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:06:59,911 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:07:24,706 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447151---Thread was being aborted.
+
+ 2009-04-24 11:07:47,469 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:07:57,531 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:07:57,562 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:07:57',remark='' where SystemID = 18 and DocumentID = 32 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 32 and SequenceID = 120
+
+
+ 2009-04-24 11:08:25,138 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:08:27,731 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:08:27,747 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:08:27',remark='' where SystemID = 18 and DocumentID = 33 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 33 and SequenceID = 120
+
+
+ 2009-04-24 11:08:39,949 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:08:40,652 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:09:02,572 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:09:06,071 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:09:06,087 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:09:06',remark='' where SystemID = 18 and DocumentID = 34 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 34 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:10:37,672 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:10:41,031 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:10:41,062 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:10:41',remark='' where SystemID = 18 and DocumentID = 35 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 35 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:12:24,801 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:12:34,019 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:12:37,878 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:12:37,940 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:12:37',remark='' where SystemID = 18 and DocumentID = 37 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 37 and SequenceID = 120
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:18:05,467 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:18:15,185 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:18:22,215 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:18:22,294 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:18:22',remark='' where SystemID = 18 and DocumentID = 38 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 38 and SequenceID = 120
+
+
+ 2009-04-24 11:19:41,066 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:19:49,800 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:19:52,549 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:19:52,565 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:19:52',remark='' where SystemID = 18 and DocumentID = 39 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 39 and SequenceID = 120
+
+
+ 2009-04-24 11:20:12,485 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:21:25,024 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:21:31,476 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:21:31,507 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:21:31',remark='' where SystemID = 18 and DocumentID = 40 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 40 and SequenceID = 120
+
+
+ 2009-04-24 11:23:47,493 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:23:52,133 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:23:52,148 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:23:52',remark='' where SystemID = 18 and DocumentID = 41 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 41 and SequenceID = 120
+
+
+ 2009-04-24 11:24:45,018 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:24:49,361 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:24:49,376 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:24:49',remark='' where SystemID = 18 and DocumentID = 42 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 42 and SequenceID = 120
+
+
+ 2009-04-24 11:25:37,137 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:25:41,011 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:25:41,058 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:25:41',remark='' where SystemID = 18 and DocumentID = 44 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 44 and SequenceID = 120
+
+
+ 2009-04-24 11:26:19,023 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:26:31,318 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:26:36,287 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:26:36,318 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:26:36',remark='' where SystemID = 18 and DocumentID = 46 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 46 and SequenceID = 120
+
+
+ 2009-04-24 11:26:53,472 [ERROR] [RowIndex£º641 ] c:\project\workflowplatform\workflowengine\bll\workflow.cs  
+ Message:
+
+ 2009-04-24 11:26:53,519 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=447150,ApproveDate= '2009-4-24 11:26:53',remark='' where SystemID = 18 and DocumentID = 47 and SequenceID = 100 and ApproveNeededID = 447150
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 47 and SequenceID = 120
+
+
+ 2009-04-24 11:27:03,612 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:39:56,808 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 11:40:00,110 [INFO ] [RowIndex£º66  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Navigator.ascx.cs  
+ Message:447150 logged off.
+
+ 2009-04-24 11:40:08,467 [ERROR] [RowIndex£º31  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\top.aspx.cs  
+ Message:  Object reference not set to an instance of an object.
+
+ 2009-04-24 11:40:18,201 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:449587---Thread was being aborted.
+
+ 2009-04-24 11:40:40,130 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:449587---Thread was being aborted.
+
+ 2009-04-24 11:41:24,392 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:449587---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 11:45:09,364 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:449587---Thread was being aborted.
+
+ 2009-04-24 11:45:20,734 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=449587,ApproveDate= '2009-4-24 11:45:20',remark='' where SystemID = 18 and DocumentID = 28 and SequenceID = 300 and ApproveNeededID = 449587
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 28 and SequenceID = 310
+
+
+ 2009-04-24 11:45:30,398 [ERROR] [RowIndex£º157 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message: update WorkFlowLog set Status = 'approved',ApproveByID=449587,ApproveDate= '2009-4-24 11:45:30',remark='' where SystemID = 18 and DocumentID = 31 and SequenceID = 300 and ApproveNeededID = 449587
+update WorkFlowLog set Status = 'pending' where SystemID = 18 and DocumentID = 31 and SequenceID = 310
+
+
+ 2009-04-24 11:45:49,303 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=449587,ApproveDate='2009-4-24 11:45:49',remark='' where SystemID = 18 and DocumentID = 45 and SequenceID = 300 and ApproveNeededID = 449587
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 45
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 14:17:51,289 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:449587---Thread was being aborted.
+
+ 2009-04-24 14:18:09,542 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=449587,ApproveDate='2009-4-24 14:18:09',remark='' where SystemID = 18 and DocumentID = 36 and SequenceID = 300 and ApproveNeededID = 449587
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 36
+
+
+ 2009-04-24 15:52:54,661 [ERROR] [RowIndex£º174 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\SystemManagement.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 15:52:58,286 [ERROR] [RowIndex£º165 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\Routing.aspx.cs  
+ Message:EmplID:447150---A field or property with the name 'ConditionID' was not found on the selected data source.
+
+ 2009-04-24 15:52:58,302 [ERROR] [RowIndex£º143 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\Routing.aspx.cs  
+ Message:EmplID:447150---A field or property with the name 'ConditionID' was not found on the selected data source.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 15:57:19,210 [ERROR] [RowIndex£º174 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\SystemManagement.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 15:57:28,148 [ERROR] [RowIndex£º174 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\SystemManagement.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 15:58:11,570 [ERROR] [RowIndex£º174 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\SystemManagement.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 15:58:15,414 [ERROR] [RowIndex£º174 ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Configuration\SystemManagement.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-04-24 16:11:29,108 [ERROR] [RowIndex£º180 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\SystemType.cs  
+ Message: --- Update Sql:   update SystemType  set SystemName = 'E_Test555',QueryBUrl='DetailInformation.aspx',QuerySUrl='',ApplyUrl='http://www.sina.com.cn',QueryUrl='http://ssuzbse/e_library' where systemID = 16
+
+ 2009-04-24 16:12:01,795 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:447150---Thread was being aborted.
+
+ 2009-04-24 16:12:27,639 [INFO ] [RowIndex£º357 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update DocumentHeader set Status = 'canceled' where SystemID = 18 and DocumentID = 40
+
+ 2009-04-24 16:23:42,253 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 16:24:16,114 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 16:24:20,676 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 16:24:20',remark='' where SystemID = 18 and DocumentID = 42 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 42
+
+
+ 2009-04-24 16:24:55,740 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 16:24:55',remark='' where SystemID = 18 and DocumentID = 41 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 41
+
+
+ 2009-04-24 16:25:37,788 [ERROR] [RowIndex£º64  ] C:\Project\WorkFlowPlatform\WorkFlowPresentation\Presentation\PendingList.aspx.cs  
+ Message:EmplID:380004---Thread was being aborted.
+
+ 2009-04-24 16:25:42,022 [INFO ] [RowIndex£º339 ] C:\Project\WorkFlowPlatform\WorkFlowEngine\BLL\Document.cs  
+ Message:update WorkFlowLog set Status = 'rejected',ApproveByID=380004,ApproveDate='2009-4-24 16:25:42',remark='' where SystemID = 18 and DocumentID = 39 and SequenceID = 120 and ApproveNeededID = 380004
+update DocumentHeader set Status = 'rejected' where SystemID = 18 and DocumentID = 39
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

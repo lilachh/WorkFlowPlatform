@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="NewRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="systemID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="docID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="requestorID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="owner" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="curSequenceID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="conditionID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="choiceList" type="tns:ArrayOfRequestorChoice2" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfRequestorChoice2">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="RequestorChoice2" nillable="true" type="tns:RequestorChoice2" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RequestorChoice2">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:RequestorChoice" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="RequestorChoice">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SystemID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocumentID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MainSequenceID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ConditionID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="NewRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewRequestResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NewRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:NewRequest" />
+  </wsdl:message>
+  <wsdl:message name="NewRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:NewRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WorkFlowSoap">
+    <wsdl:operation name="NewRequest">
+      <wsdl:input message="tns:NewRequestSoapIn" />
+      <wsdl:output message="tns:NewRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WorkFlowSoap" type="tns:WorkFlowSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewRequest">
+      <soap:operation soapAction="http://tempuri.org/NewRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WorkFlowSoap12" type="tns:WorkFlowSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewRequest">
+      <soap12:operation soapAction="http://tempuri.org/NewRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WorkFlow">
+    <wsdl:port name="WorkFlowSoap" binding="tns:WorkFlowSoap">
+      <soap:address location="http://165.204.224.6/wfws/workflow.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WorkFlowSoap12" binding="tns:WorkFlowSoap12">
+      <soap12:address location="http://165.204.224.6/wfws/workflow.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

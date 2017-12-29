@@ -1,0 +1,94 @@
+
+----------------------header--------------------------
+2009-07-20 16:54:49,659 [DEBUG] [RowIndex£º49  ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowPresentation\Login.aspx.cs  
+ Message:application start  emplid=380616
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-10-29 16:53:04,801 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 100, 'Supervisor', '0', 380070, 4, -1, 'pending', null, getdate())
+
+
+ 2009-10-29 16:53:04,851 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 200, 'Section Manager', '0', 380085, 7, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,861 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 300, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,871 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 400, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,881 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 500, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,891 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 600, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,901 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 700, 'HRSC', '1', 14,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:53:04,911 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 800, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-10-29 16:54:04,424 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 100, 'Supervisor', '0', 380616, 5, -1, 'pending', null, getdate())
+
+
+ 2009-10-29 16:54:04,454 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 200, 'Section Manager', '0', 447150, 7, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,464 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 300, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,474 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 400, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,474 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 500, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,484 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 600, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,494 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 700, 'HRSC', '1', 14,  -1, -1, '-1', null, null)
+
+
+ 2009-10-29 16:54:04,504 [ERROR] [RowIndex£º642 ] C:\Personal Data\Projects\Work Flow Platform\AMD.SZ.WorkFlow\WorkFlowEngine\BLL\WorkFlow.cs  
+ Message: insert into WorkFlowLog (SystemID, DocumentId, SequenceID, RoleDescription, Roletype, ApproveNeededID, Grade, ApproveByID, Status, ApproveDate, PendingDate)  values (20, 98, 800, 'SiteHR', '1', 13,  -1, -1, '-1', null, null)
+
+
+ 
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2009-11-04 16:10:09,113 [ERROR] [RowIndex£º31  ] C:\RaySun\project\workflow\WorkFlowPresentation\top.aspx.cs  
+ Message:  Object reference not set to an instance of an object.
+
+ 2009-11-04 16:10:21,920 [DEBUG] [RowIndex£º29  ] C:\RaySun\project\workflow\WorkFlowPresentation\Login.aspx.cs  
+ Message:application start  emplid=454017
+
+
+ 
+----------------------footer--------------------------

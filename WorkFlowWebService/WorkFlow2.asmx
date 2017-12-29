@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="WorkFlow2.asmx.cs" Class="WorkFlowWebService.WorkFlow2" %>
